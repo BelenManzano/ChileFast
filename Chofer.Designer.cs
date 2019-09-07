@@ -181,6 +181,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Chofer";
             this.Text = "Chofer";
+            this.Load += new System.EventHandler(this.Chofer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

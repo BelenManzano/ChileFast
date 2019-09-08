@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +17,8 @@ namespace ChileFast
         {
             InitializeComponent();
         }
+
+        static string conexion = "SERVER=127.0.0.1;PORT=3306;DATABASE=chilefast;UID=root;PASSWORDS=;";
+        MySqlConnection cn = new MySqlConnection(conexion);
     }
 }

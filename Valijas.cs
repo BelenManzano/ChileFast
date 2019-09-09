@@ -24,7 +24,6 @@ namespace ChileFast
             
             SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
             conexion.Open();
-            string id = txtVenta.Text;
             string marca = txtMarca.Text;
             string largo = txtLargo.Text;
             string delicado = cmbDelicado.Text;
@@ -39,8 +38,8 @@ namespace ChileFast
             }
             else
             {
-                string cadena = "insert into Valijas(id,peso,altura,anchura,marca,color,largo,delicado,comentario)" +
-                "values (" + id + "," + peso + "," + altura + "," + ancho + ",'" + marca + "','" + color + "'," + largo + ",'" + delicado + "','" + comentario + "')";
+                string cadena = "insert into Valijas(peso,altura,ancho,marca,color,largo,delicado,comentario)" +
+                "values (" + peso + "," + altura + "," + ancho + ",'" + marca + "','" + color + "'," + largo + ",'" + delicado + "','" + comentario + "')";
 
                 SqlCommand comando = new SqlCommand(cadena, conexion);
                 comando.ExecuteNonQuery();

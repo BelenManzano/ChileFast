@@ -24,7 +24,7 @@ namespace ChileFast
             
             SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
             conexion.Open();
-            string venta = txtVenta.Text;
+            string id = txtVenta.Text;
             string marca = txtMarca.Text;
             string largo = txtLargo.Text;
             string delicado = cmbDelicado.Text;
@@ -33,15 +33,22 @@ namespace ChileFast
             string ancho = txtAncho.Text;
             string color = txtColor.Text;
             string comentario = txtComentario.Text;
+            if (string.IsNullOrEmpty(marca) || string.IsNullOrEmpty(delicado) || string.IsNullOrEmpty(comentario) || string.IsNullOrEmpty(color))
+            {
+                MessageBox.Show("Debes completar los campos vacios");
+            }
+            else
+            {
+                string cadena = "insert into Valijas(id,peso,altura,anchura,marca,color,largo,delicado,comentario)" +
+                "values (" + id + "," + peso + "," + altura + "," + ancho + ",'" + marca + "','" + color + "'," + largo + ",'" + delicado + "','" + comentario + "')";
 
-            string cadena = "insert into Valijas(id,peso,altura,anchura,marca,color,largo,delicado,comentario)" +
-            "values ("+venta+","+ peso + "," + altura + "," + ancho + ",'"+marca+"','" + color + "',"+largo+",'"+delicado+"','" + comentario + "')";
-
-            SqlCommand comando = new SqlCommand(cadena, conexion);
-            comando.ExecuteNonQuery();
-            MessageBox.Show("Los datos se guardaron correctamente");
-            conexion.Close();
-            MessageBox.Show("Aviso de prueba : Se cerró la conexión.");
+                SqlCommand comando = new SqlCommand(cadena, conexion);
+                comando.ExecuteNonQuery();
+                MessageBox.Show("Los datos se guardaron correctamente");
+                conexion.Close();
+                MessageBox.Show("Aviso de prueba : Se cerró la conexión.");
+            }
+            
         }
 
         

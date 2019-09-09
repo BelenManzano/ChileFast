@@ -17,6 +17,7 @@ namespace ChileFast
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Valijas());
+            Application.Run(new Cliente());
         }
     }
 }

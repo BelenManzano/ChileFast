@@ -46,7 +46,11 @@
             // 
             // dtaTable
             // 
-            this.dtaTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtaTable.BackgroundColor = System.Drawing.Color.MediumOrchid;
+            this.dtaTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtaTable.CausesValidation = false;
+            this.dtaTable.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dtaTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dtaTable.Location = new System.Drawing.Point(12, 53);
             this.dtaTable.Name = "dtaTable";
             this.dtaTable.Size = new System.Drawing.Size(644, 291);

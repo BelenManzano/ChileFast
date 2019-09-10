@@ -139,6 +139,7 @@
             // 
             // txtPeso
             // 
+            this.txtPeso.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtPeso.Location = new System.Drawing.Point(139, 143);
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(100, 20);
@@ -146,6 +147,7 @@
             // 
             // txtAltura
             // 
+            this.txtAltura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtAltura.Location = new System.Drawing.Point(139, 176);
             this.txtAltura.Name = "txtAltura";
             this.txtAltura.Size = new System.Drawing.Size(100, 20);
@@ -153,6 +155,7 @@
             // 
             // txtAncho
             // 
+            this.txtAncho.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtAncho.Location = new System.Drawing.Point(139, 211);
             this.txtAncho.Name = "txtAncho";
             this.txtAncho.Size = new System.Drawing.Size(100, 20);
@@ -160,6 +163,7 @@
             // 
             // txtColor
             // 
+            this.txtColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtColor.Location = new System.Drawing.Point(139, 247);
             this.txtColor.Name = "txtColor";
             this.txtColor.Size = new System.Drawing.Size(100, 20);
@@ -167,6 +171,7 @@
             // 
             // txtComentario
             // 
+            this.txtComentario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtComentario.Location = new System.Drawing.Point(286, 225);
             this.txtComentario.Name = "txtComentario";
             this.txtComentario.Size = new System.Drawing.Size(201, 83);
@@ -185,6 +190,7 @@
             // 
             // txtMarca
             // 
+            this.txtMarca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtMarca.Location = new System.Drawing.Point(323, 169);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(100, 20);
@@ -210,6 +216,7 @@
             // 
             // txtLargo
             // 
+            this.txtLargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.txtLargo.Location = new System.Drawing.Point(323, 143);
             this.txtLargo.Name = "txtLargo";
             this.txtLargo.Size = new System.Drawing.Size(100, 20);
@@ -226,6 +233,7 @@
             // 
             // cmbDelicado
             // 
+            this.cmbDelicado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.cmbDelicado.FormattingEnabled = true;
             this.cmbDelicado.Items.AddRange(new object[] {
             "Fragil",

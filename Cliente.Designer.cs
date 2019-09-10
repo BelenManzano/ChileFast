@@ -53,6 +53,7 @@
             // 
             // txtTelefono
             // 
+            this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtTelefono.Location = new System.Drawing.Point(227, 264);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(176, 20);
@@ -60,6 +61,7 @@
             // 
             // txtCorreo
             // 
+            this.txtCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtCorreo.Location = new System.Drawing.Point(227, 214);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(176, 20);
@@ -67,6 +69,7 @@
             // 
             // txtNombre
             // 
+            this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtNombre.Location = new System.Drawing.Point(227, 165);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(176, 20);
@@ -74,6 +77,7 @@
             // 
             // txtRut
             // 
+            this.txtRut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtRut.Location = new System.Drawing.Point(227, 116);
             this.txtRut.Name = "txtRut";
             this.txtRut.Size = new System.Drawing.Size(176, 20);

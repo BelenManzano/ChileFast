@@ -56,6 +56,8 @@
             // 
             // dtaTable
             // 
+            this.dtaTable.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.dtaTable.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtaTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtaTable.Location = new System.Drawing.Point(12, 35);
             this.dtaTable.Name = "dtaTable";

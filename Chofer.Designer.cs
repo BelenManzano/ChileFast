@@ -89,6 +89,7 @@
             // 
             // txtNombre
             // 
+            this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtNombre.Location = new System.Drawing.Point(143, 135);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
@@ -96,6 +97,7 @@
             // 
             // txtTelefono
             // 
+            this.txtTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtTelefono.Location = new System.Drawing.Point(143, 163);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(100, 20);
@@ -103,6 +105,7 @@
             // 
             // txtCorreo
             // 
+            this.txtCorreo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtCorreo.Location = new System.Drawing.Point(143, 189);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(100, 20);
@@ -120,6 +123,7 @@
             // 
             // cmbLicencia
             // 
+            this.cmbLicencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cmbLicencia.FormattingEnabled = true;
             this.cmbLicencia.Items.AddRange(new object[] {
             "A2",

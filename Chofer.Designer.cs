@@ -38,6 +38,7 @@
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.cmbLicencia = new System.Windows.Forms.ComboBox();
+            this.btnVista = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -109,7 +110,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(139, 276);
+            this.button1.Location = new System.Drawing.Point(139, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 19;
@@ -133,12 +134,23 @@
             this.cmbLicencia.TabIndex = 20;
             this.cmbLicencia.Text = "Seleccione una licencia";
             // 
+            // btnVista
+            // 
+            this.btnVista.Location = new System.Drawing.Point(122, 342);
+            this.btnVista.Name = "btnVista";
+            this.btnVista.Size = new System.Drawing.Size(121, 23);
+            this.btnVista.TabIndex = 21;
+            this.btnVista.Text = "Ver lista de choferes";
+            this.btnVista.UseVisualStyleBackColor = true;
+            this.btnVista.Click += new System.EventHandler(this.BtnVista_Click);
+            // 
             // Chofer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(230)))), ((int)(((byte)(52)))));
             this.ClientSize = new System.Drawing.Size(371, 377);
+            this.Controls.Add(this.btnVista);
             this.Controls.Add(this.cmbLicencia);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtCorreo);
@@ -168,5 +180,6 @@
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox cmbLicencia;
+        private System.Windows.Forms.Button btnVista;
     }
 }

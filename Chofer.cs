@@ -44,5 +44,11 @@ namespace ChileFast
             }
 
         }
+
+        private void BtnVista_Click(object sender, EventArgs e)
+        {
+            Form vista_chofer = new Vista_chofer();
+            vista_chofer.Show();
+        }
     }
 }

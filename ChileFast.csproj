@@ -124,6 +124,18 @@
     <Compile Include="Venta.Designer.cs">
       <DependentUpon>Venta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vista_chofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista_chofer.Designer.cs">
+      <DependentUpon>Vista_chofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista_clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista_clientes.Designer.cs">
+      <DependentUpon>Vista_clientes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Chofer.resx">
       <DependentUpon>Chofer.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +174,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Venta.resx">
       <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista_chofer.resx">
+      <DependentUpon>Vista_chofer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista_clientes.resx">
+      <DependentUpon>Vista_clientes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

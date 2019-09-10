@@ -46,5 +46,11 @@ namespace ChileFast
             
 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form vista_clientes = new Vista_clientes();
+            vista_clientes.Show();
+        }
     }
 }

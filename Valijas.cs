@@ -50,6 +50,10 @@ namespace ChileFast
             
         }
 
-        
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form vista_valija = new Vista_valijas();
+            vista_valija.Show();
+        }
     }
 }

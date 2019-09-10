@@ -36,5 +36,28 @@ namespace ChileFast
             dtaTable.DataSource = tabla;
 
         }
+
+        private void DtaTable_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtId.Text = dtaTable.CurrentRow.Cells[0].Value.ToString();
+            txtNombre.Text = dtaTable.CurrentRow.Cells[1].Value.ToString();
+            txtTelefono.Text = dtaTable.CurrentRow.Cells[2].Value.ToString();
+            txtCorreo.Text = dtaTable.CurrentRow.Cells[3].Value.ToString();
+            txtLicencia.Text = dtaTable.CurrentRow.Cells[4].Value.ToString();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            SqlConnection conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
+            conexion.Open();
+            string query = "DELETE FROM chofer WHERE id = @id";
+            SqlCommand comando = new SqlCommand(query, conexion);
+            comando.Parameters.AddWithValue("@id", txtId.Text);
+            comando.ExecuteNonQuery();
+            conexion.Close();
+            MessageBox.Show("se elimino correctamente");
+
+            
+        }
     }
 }
